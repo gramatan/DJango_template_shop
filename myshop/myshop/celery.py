@@ -2,6 +2,8 @@
 # celery -A myshop worker -l info
 ## http://127.0.0.1:15672/
 ## login - pass : guest - guest
+### start flower:
+### celery -A myshop flower
 import os
 from celery import Celery
 
